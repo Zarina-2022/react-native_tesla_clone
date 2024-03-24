@@ -19,10 +19,18 @@ export const carItemStyle = StyleSheet.create({
     fontSize: 16,
     color: COLORS.gray,
   },
+  subtitleCTA: {
+    textDecorationLine: 'underline',
+  },
   image: {
     width: '100%',
     height: '100%',
     resizeMode: 'cover',
     position: 'absolute', // in order not to push our components underneath
+  },
+  btnWrapper: {
+    position: 'absolute',
+    bottom: 50,
+    width: '100%',
   },
 });

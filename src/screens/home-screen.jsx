@@ -6,7 +6,12 @@ import CarItem from '../components/car-item';
 const HomeScreen = () => {
   return (
     <View style={homescreenStyle.container}>
-      <CarItem />
+      <CarItem
+        name={'Model S'}
+        tagline={'Order online for'}
+        image={require('../assets/ModelS.jpeg')}
+        taglineCTA={'Touchless Delivery'}
+      />
       <StatusBar style="auto" />
     </View>
   );
